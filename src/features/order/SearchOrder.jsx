@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-function SearchOder() {
+function SearchOrder() {
   const [query, setQuery] = useState("");
   const navigate = useNavigate();
 
@@ -25,4 +25,4 @@ function SearchOder() {
   );
 }
 
-export default SearchOder;
+export default SearchOrder;

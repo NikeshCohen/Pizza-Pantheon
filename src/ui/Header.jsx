@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import SearchOder from "../features/order/searchOder";
+import SearchOrder from "../features/order/SearchOrder";
 import Username from "../features/user/Username";
 
 function Header() {
@@ -8,7 +8,7 @@ function Header() {
       <Link to="/" className="tracking-widest">
         Pizza Pantheon
       </Link>
-      <SearchOder />
+      <SearchOrder />
       <Username />
     </header>
   );
